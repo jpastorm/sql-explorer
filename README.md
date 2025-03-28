@@ -27,13 +27,14 @@ SQL Explorer designed terminal user interface (TUI) for interacting with Postgre
 git clone https://github.com/yourusername/sql-explorer.git
 cd sql-explorer
 go build -o sqlexplorer
-
+```
 # Configuration
 
 ## Using .env file
 
 Create a `.env` file in the project root with the following variables:
 
+```
 DB_HOST=localhost
 DB_PORT=5432
 DB_USER=postgres
